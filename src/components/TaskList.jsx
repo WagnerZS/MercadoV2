@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { FundoLixeira } from "./FundoLixeira";
 
-const API_URL = 'https://mercado-6kjn.onrender.com/tasks';
+const API_URL = 'https://mercadov2.onrender.com/tasks';
 
 export function TaskList({ tasks, setTasks, tempTask, setTempTask }) {
   const [loading, setLoading] = useState(true);

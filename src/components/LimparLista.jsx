@@ -3,7 +3,7 @@ import { useState } from "react";
 export function LimparLista({ setTasks }) {
   const [showConfirm, setShowConfirm] = useState(false);
 
-  const API_URL = 'https://mercado-6kjn.onrender.com/tasks';
+  const API_URL = 'https://mercadov2.onrender.com/tasks';
 
   const handleClick = () => {
     setShowConfirm(true);
